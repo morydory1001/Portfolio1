@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav a:hover {
+    box-shadow: 0px 0.1px 5px 5px;
+    transition: 50ms ease-out;
+}
+
+h2 {
+    font-weight: lighter;
+    margin: 10px;
+}
+
+a {
+    color: lightblue;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    border: 5px solid lightslategrey;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+footer p {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: Darkslategrey;
+    padding: 10px;
+}
